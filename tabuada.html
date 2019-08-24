@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Calculadora</title>
+</head>
+<link rel="stylesheet" href="tabuada.css">
+<body>
+    <header>
+      <h1>Vamos Aprender a tabuada</h1>
+    </header>
+    <section>
+      <div>
+        <p>Digite um número: <input type="number" id="numero"></p>
+        <p><input type="radio" name="operacao" checked>
+        <label>Adição</label>
+        <input type="radio" name="operacao">
+        <label>Subtração</label>
+        <input type="radio" name="operacao">
+        <label>Multiplicação</label>
+        <input type="radio" name="operacao">
+        <label>Divisão</label>
+        </p>
+        <br>
+      </div>
+      <div id="res">
+        <select id="tabuada" size="10">
+          //para definir o tamanho do select para ele não fica expandeple, usa-se o comando size para tirar  efeito
+
+        </select>
+        <br>
+        <p><input type="button" value="Calcular" id="btn"></p>
+      </div>
+    </section>
+    <footer>
+      <p id="copy">&copy; SantanaFernando</p>
+    </footer>
+  </body>
+</html>
+
+<script src="tabuada.js"></script>
